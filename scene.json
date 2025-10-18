@@ -1,0 +1,299 @@
+{
+  "version": 1,
+  "sceneVersion": 39,
+  "sceneSettings": {
+    "environment": {
+      "clearColor": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ambientColor": [
+        0,
+        0,
+        0
+      ],
+      "useIBL": false,
+      "iblPath": null,
+      "iblIntensity": 1,
+      "iblRotation": 0,
+      "useSkybox": false,
+      "skyboxType": "none",
+      "skyboxPanoramaPath": null,
+      "skyboxMaterial": "fromIBL",
+      "skyboxRotation": 0,
+      "skyboxTextures": {
+        "nx": null,
+        "ny": null,
+        "nz": null,
+        "px": null,
+        "py": null,
+        "pz": null
+      },
+      "fogMode": "none"
+    },
+    "imageProcessing": {
+      "contrast": 1,
+      "exposure": 1,
+      "toneMappingEnabled": false,
+      "toneMappingType": "standard",
+      "vignetteEnabled": false,
+      "vignetteWeight": 1,
+      "vignetteStretch": 0,
+      "vignetteFov": 1.5,
+      "vignetteColor": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "ditheringEnabled": false,
+      "ditheringIntensity": 0.5,
+      "highlightEnabled": false,
+      "highlightBlurHorizontalSize": 1,
+      "highlightBlurVerticalSize": 1,
+      "glowEnabled": false,
+      "glowIntensity": 1,
+      "glowBlurKernelSize": 64
+    },
+    "physics": {
+      "enabled": false,
+      "gravity": [
+        0,
+        -9.81,
+        0
+      ],
+      "timeStep": 0.016666666666666666,
+      "iterations": 10
+    }
+  },
+  "nodes": [
+    {
+      "id": "camera1",
+      "kind": "camera",
+      "name": "Camera",
+      "transform": {
+        "position": [
+          8.65,
+          5,
+          -8.65
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "enabled": true,
+      "camera": {
+        "type": "ArcRotate",
+        "active": true,
+        "minZ": 0.1,
+        "maxZ": 100,
+        "fov": 0.7853981633974483,
+        "alpha": -1.5707963267948966,
+        "beta": 1.2566370614359172,
+        "radius": 15,
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "targetMode": "position",
+        "targetObject": null
+      }
+    },
+    {
+      "id": "light1",
+      "kind": "light",
+      "name": "Light",
+      "transform": {
+        "position": [
+          0,
+          10,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "enabled": true,
+      "light": {
+        "type": "Directional",
+        "intensity": 1500,
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "enabled": true,
+        "groundColor": [
+          0.3,
+          0.3,
+          0.3
+        ],
+        "angle": 1.5707963267948966
+      },
+      "metadata": {
+        "deleted": true
+      }
+    },
+    {
+      "id": "defaultCube",
+      "kind": "mesh",
+      "name": "Cube",
+      "transform": {
+        "position": [
+          0,
+          1,
+          0
+        ],
+        "scaling": [
+          1,
+          1,
+          1
+        ]
+      },
+      "visible": true,
+      "enabled": true
+    },
+    {
+      "id": "ground",
+      "kind": "mesh",
+      "name": "Ground Plane",
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "scaling": [
+          3,
+          1,
+          3
+        ]
+      },
+      "visible": true,
+      "enabled": true,
+      "metadata": {
+        "deleted": true
+      }
+    },
+    {
+      "id": "6e17626e-92fd-470e-997c-fbd82d3286ea",
+      "kind": "light",
+      "name": "Light_02",
+      "transform": {
+        "position": [
+          0,
+          6.6,
+          0
+        ],
+        "rotation": [
+          1.5707963267948966,
+          0,
+          0.5235987755982988
+        ],
+        "scaling": [
+          1,
+          1,
+          1
+        ]
+      },
+      "visible": true,
+      "enabled": true,
+      "light": {
+        "type": "Directional",
+        "intensity": 1.1,
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "enabled": true,
+        "range": 10
+      },
+      "metadata": {
+        "deleted": true
+      }
+    },
+    {
+      "id": "1fff2adf-a505-4a2f-a341-4d4a70bb5923",
+      "kind": "light",
+      "name": "Light_03",
+      "transform": {
+        "position": [
+          0,
+          7.543918609619141,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scaling": [
+          1,
+          1,
+          1
+        ]
+      },
+      "visible": true,
+      "enabled": true,
+      "light": {
+        "type": "Spot",
+        "intensity": 50,
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "enabled": true,
+        "direction": [
+          0,
+          -1,
+          0
+        ],
+        "angle": 1.3962634015954636,
+        "exponent": 1,
+        "range": 10
+      }
+    },
+    {
+      "id": "10454b23-7d81-4e44-98eb-5feb03e63628",
+      "kind": "mesh",
+      "name": "Sphere",
+      "transform": {
+        "position": [
+          3.0094079971313477,
+          1.993887186050415,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scaling": [
+          1,
+          1,
+          1
+        ]
+      },
+      "visible": true,
+      "enabled": true,
+      "metadata": {
+        "primitiveType": "sphere",
+        "primitiveParams": {
+          "type": "sphere",
+          "diameter": 2,
+          "segments": 32
+        },
+        "materialName": "Material"
+      }
+    }
+  ]
+}
