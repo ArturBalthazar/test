@@ -1,0 +1,45 @@
+{
+  "version": "1.0.0",
+  "fonts": {
+    "primary": {
+      "family": "Arial, sans-serif",
+      "sizes": {
+        "small": "12px",
+        "medium": "16px",
+        "large": "24px",
+        "xlarge": "32px"
+      }
+    }
+  },
+  "colors": {
+    "primary": "#007bff",
+    "secondary": "#6c757d",
+    "success": "#28a745",
+    "danger": "#dc3545",
+    "warning": "#ffc107",
+    "info": "#17a2b8",
+    "light": "#f8f9fa",
+    "dark": "#343a40",
+    "text": "#ffffff",
+    "background": "#000000"
+  },
+  "spacing": {
+    "xs": "4px",
+    "sm": "8px",
+    "md": "16px",
+    "lg": "24px",
+    "xl": "32px",
+    "xxl": "48px"
+  },
+  "borderRadius": {
+    "none": "0px",
+    "sm": "4px",
+    "md": "8px",
+    "lg": "16px",
+    "full": "9999px"
+  },
+  "metadata": {
+    "createdAt": "2025-10-18T11:35:26.289Z",
+    "lastModified": "2025-10-18T11:35:26.289Z"
+  }
+}
